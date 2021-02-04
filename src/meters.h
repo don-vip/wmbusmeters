@@ -67,6 +67,7 @@
     X(tsd2,       T1_bit, SmokeDetector,    TSD2,        TSD2)         \
     X(q400,       T1_bit, WaterMeter,       Q400,        Q400)         \
     X(qcaloric,   C1_bit, HeatCostAllocationMeter, QCALORIC, QCaloric) \
+    X(sharky775,  T1_bit, HeatMeter,        SHARKY775,   Sharky775)    \
     X(sontex868,  T1_bit, HeatCostAllocationMeter, SONTEX868, Sontex868) \
     X(supercom587,T1_bit, WaterMeter,       SUPERCOM587, Supercom587)  \
     X(ultrimis,   T1_bit, WaterMeter,       ULTRIMIS,    Ultrimis)     \
@@ -162,6 +163,8 @@
     X(TSD2,       MANUFACTURER_TCH, 0xf0,  0x76) \
     X(Q400,       MANUFACTURER_AXI, 0x07,  0x10) \
     X(QCALORIC,   MANUFACTURER_QDS, 0x08,  0x35) \
+    X(SHARKY775,  MANUFACTURER_HYD, 0x68,  0x92) \
+    X(SHARKY775,  MANUFACTURER_HYD, 0x68,  0x93) \
     X(SUPERCOM587,MANUFACTURER_SON, 0x06,  0x3c) \
     X(SUPERCOM587,MANUFACTURER_SON, 0x07,  0x3c) \
     X(SONTEX868,  MANUFACTURER_SON, 0x08,  0x16) \

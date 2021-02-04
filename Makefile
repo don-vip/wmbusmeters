@@ -150,12 +150,13 @@ METER_OBJS:=\
 	$(BUILD)/meter_multical302.o \
 	$(BUILD)/meter_multical403.o \
 	$(BUILD)/meter_multical603.o \
-    $(BUILD)/meter_multical803.o \
+	$(BUILD)/meter_multical803.o \
 	$(BUILD)/meter_omnipower.o \
 	$(BUILD)/meter_q400.o \
 	$(BUILD)/meter_qcaloric.o \
 	$(BUILD)/meter_rfmamb.o \
 	$(BUILD)/meter_rfmtx1.o \
+	$(BUILD)/meter_sharky775.o \
 	$(BUILD)/meter_supercom587.o \
 	$(BUILD)/meter_sontex868.o \
 	$(BUILD)/meter_topaseskr.o \
